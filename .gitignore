@@ -1,0 +1,29 @@
+# Environment files - lowercase letters and underscores only
+# Valid: .env, .env_local, .env_development, .env_test
+# Invalid: .env.dev, .Env, .env-development
+.env
+.env.*
+.env_*
+
+# Build outputs
+/bin
+/dist
+/out
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Go
+*.test
+*.out
+vendor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ignore directory 
+docs/
